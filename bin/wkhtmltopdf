@@ -66,7 +66,7 @@ if File.exist?("#{binary}.gz") && !File.exist?(binary)
 end
 
 unless File.exist? binary
-  raise 'Invalid platform, must be running on Ubuntu 16.04/18.04/20.04, ' \
+  raise 'Invalid platform, must be running on Ubuntu 16.04/18.04/20.04/22.04, ' \
         'CentOS 6/7/8, Debian 9/10, Archlinux amd64, or Intel-based Cocoa macOS ' \
         "(missing binary: #{binary})."
 end
